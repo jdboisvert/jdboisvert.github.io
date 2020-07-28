@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <Segment inverted>
-      <Menu inverted pointing secondary>
+      <Menu inverted pointing secondary className={styles.centeredContainer}>
         <Menu.Item
           name="jeffrey boisvert"
           active={activeItem === "jeffrey boisvert"}
@@ -19,30 +19,29 @@ const Header = () => {
           as={Link}
           to="/"
         />
-        <Menu.Item
-          name="projects"
-          className={styles.menuLinkRight}
-          active={activeItem === "projects"}
-          onClick={handleItemClick}
-          as={Link}
-          to="/"
-        />
-        <Menu.Item
-          name="resume"
-          className={styles.menuLinkRight}
-          active={activeItem === "resume"}
-          onClick={handleItemClick}
-          as={Link}
-          to="/"
-        />
-        <Menu.Item
-          name="blog"
-          className={styles.menuLinkRight}
-          active={activeItem === "blog"}
-          onClick={handleItemClick}
-          as={Link}
-          to="/"
-        />
+        <Menu.Menu position="right">
+          <Menu.Item
+            name="projects"
+            active={activeItem === "projects"}
+            onClick={handleItemClick}
+            as={Link}
+            to="/"
+          />
+          <Menu.Item
+            name="resume"
+            active={activeItem === "resume"}
+            onClick={handleItemClick}
+            as={Link}
+            to="/"
+          />
+          <Menu.Item
+            name="blog"
+            active={activeItem === "blog"}
+            onClick={handleItemClick}
+            as={Link}
+            to="/"
+          />
+        </Menu.Menu>
       </Menu>
     </Segment>
   );

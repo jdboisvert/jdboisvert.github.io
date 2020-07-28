@@ -1,3 +1,4 @@
-.menuLinkRight {
-  float: right;
+.centeredContainer {
+  width: 70%;
+  margin: 0 auto !important;
 }

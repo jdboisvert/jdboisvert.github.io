@@ -1,0 +1,22 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto !important;
+  max-width: 70%;
+  min-height: calc(100vh - 15rem);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5rem;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.textContainerSpacing {
+  padding: 3em;
+}
+
+.highlight {
+  background-color: #fff2ac;
+  background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+  font-weight: bold;
+}
