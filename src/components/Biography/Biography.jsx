@@ -1,15 +1,18 @@
 import React from "react";
 import { Header } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import styles from "./Biography.module.css";
 
 const Biography = () => {
+  const { t, i18n } = useTranslation("common");
+
   return (
     <>
-      <Header as="h2">Hi, I'm Jeffrey Boisvert</Header>
+      <Header as="h2">{t("bio.heading")}</Header>
       <Header as="h4">
-        Software Developer from Québec with a love for problem solving,
+        I'm a Software Developer from Québec with a love for problem solving,
         learning, and data.
       </Header>
       <p>
