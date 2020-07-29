@@ -1,0 +1,21 @@
+.container {
+  width: fit-content;
+  border: none !important;
+  box-shadow: none !important;
+  margin-bottom: 1em !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.menuContainer {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.footerItem {
+  margin-left: 3em;
+}
+
+.footerItem::before {
+  background: none !important;
+}
