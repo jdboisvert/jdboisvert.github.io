@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3d680825985288cd1d96c3c2f900af7",
+    "revision": "af0b5f77dea885d34af5a862463ad144",
     "url": "/jdboisvert.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jdboisvert.github.io/static/css/2.072f7317.chunk.css"
   },
   {
-    "revision": "8c284eea72beb9506f61",
-    "url": "/jdboisvert.github.io/static/css/main.6bd09bb5.chunk.css"
+    "revision": "9fb53ecfc21198ee1d8d",
+    "url": "/jdboisvert.github.io/static/css/main.5b5b52f8.chunk.css"
   },
   {
     "revision": "1383707740933e4193e1",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jdboisvert.github.io/static/js/2.1639c805.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8c284eea72beb9506f61",
+    "revision": "9fb53ecfc21198ee1d8d",
     "url": "/jdboisvert.github.io/static/js/main.06bcd2f7.chunk.js"
   },
   {
