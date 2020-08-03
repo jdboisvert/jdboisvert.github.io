@@ -14,3 +14,9 @@
 .textContainerSpacing {
   padding: 3em;
 }
+
+@media (min-width: 480px) {
+  .mainContainer {
+    display: block;
+  }
+}

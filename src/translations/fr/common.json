@@ -1,9 +1,24 @@
 {
   "menu": {
-    "resume": "CV"
+    "resume": "CV",
+    "blog": "blog",
+    "projects": "projects"
   },
   "bio": {
-    "heading": "Salut, je suis Jeffrey Boisvert"
+    "heading": "Salut, je suis Jeffrey Boisvert",
+    "subheading": "Je suis un développeur de logiciels du Québec passionné par la résolution de problèmes, l'apprentissage et les données.",
+    "firstParagraphPartOne": "Depuis mon jeune âge, c’était toujours une passion pour moi de travailler avec des logiciels (de la création de jeux sur Scratch à la création de mes propres sites Web). Cela m’a donné l’envie de devenir développeur et je n’ai pas arrêté depuis. ",
+    "firstParagraphHighlightedText": " Je crois que les logiciels peuvent aider à résoudre énormément de problème",
+    "firstParagraphPartTwo": " et j’aime construire les solutions à ces problèmes.",
+    "secondParagraph": "J'ai de l'expérience avec plusieurs langages de programmation tels que Java, C#, Python, Javascript, PHP, Kotlin et j'adore faire des projets personnels avec Arduino. J'ai travaillé avec plusieurs infrastructures logicielles comme Laravel, Django, Flask, Lumen, ASP.Net et j'ai utilisé plusieurs bibliothèques telles que React et Pandas.",
+    "thirdParagraphPartOne": "Dans mes temps libres vous me trouverez en randonnée, avec un instrument de musique ou bien simplement en train d’explorer de nouveaux endroits. Quoi que je décide de faire, j'aime toujours prendre une bonne tasse de café ",
+    "thirdParagraphPartTwo": " pour commencer ma journée!",
+    "forthParagraphPartOne": "Vous pouvez lire mon ",
+    "forthParagraphPartTwo": ", explorer les ",
+    "forthParagraphPartThree": " construits ou bien me contacter pour que je puisse vous aider dans vos projets."
   },
-  "comingSoon": "Bientôt disponible ..."
+  "comingSoon": "Bientôt disponible ...",
+  "email": "Courriel",
+  "clickToCopy": "Cliquez pour copier courriel",
+  "copied": "Copié!"
 }

@@ -1,21 +1,19 @@
 import React, { useState } from "react";
 import { Menu, Popup } from "semantic-ui-react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import { useTranslation } from "react-i18next";
 
 import styles from "./Footer.module.css";
 
 const Footer = () => {
-  const emailClickToCopyEmailText = "Click to copy email";
-  const emailCopiedText = "Copied!";
+  const { t } = useTranslation("common");
 
-  const [emailPopupText, setEmailPopupText] = useState(
-    emailClickToCopyEmailText
-  );
+  const [emailPopupText, setEmailPopupText] = useState(t("clickToCopy"));
 
   const handleCopyEmail = (e) => {
-    setEmailPopupText(emailCopiedText);
+    setEmailPopupText(t("copied"));
     setTimeout(() => {
-      setEmailPopupText(emailClickToCopyEmailText);
+      setEmailPopupText(t("clickToCopy"));
     }, 500);
   };
 
@@ -29,7 +27,7 @@ const Footer = () => {
               text="info.jeffreyboisvert@gmail.com"
               onCopy={handleCopyEmail}
             >
-              <Menu.Item className={styles.footerItem}>Email</Menu.Item>
+              <Menu.Item className={styles.footerItem}>{t("email")}</Menu.Item>
             </CopyToClipboard>
           }
           inverted
@@ -39,7 +37,7 @@ const Footer = () => {
           href="https://github.com/jdboisvert"
           target="_blank"
         >
-          Github
+          GitHub
         </Menu.Item>
         <Menu.Item
           href="https://www.linkedin.com/in/jeffreyboisvert/"

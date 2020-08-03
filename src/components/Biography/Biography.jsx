@@ -6,44 +6,33 @@ import { useTranslation } from "react-i18next";
 import styles from "./Biography.module.css";
 
 const Biography = () => {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
     <>
       <Header as="h2">{t("bio.heading")}</Header>
-      <Header as="h4">
-        I'm a Software Developer from Québec with a love for problem solving,
-        learning, and data.
-      </Header>
+      <Header as="h4">{t("bio.subheading")}</Header>
       <p>
-        Since I could remember I have always loved working with software (making
-        games on Scatch and building my own websites). This started me down the
-        path of wanting to become a developer and I have not stopped since.{" "}
+        {t("bio.firstParagraphPartOne")}
         <span className={styles.highlight}>
-          I believe software can help solve any problem
-        </span>{" "}
-        and I love building those solutions.
+          {t("bio.firstParagraphHighlightedText")}
+        </span>
+        {t("bio.firstParagraphPartTwo")}
       </p>
+      <p>{t("bio.secondParagraph")}</p>
       <p>
-        I have experience with several programing languages such as Java, C#,
-        Python, Javascript, PHP, and Kotlin (I love tinkering with Ardunios
-        too). I have worked with several web frameworks such as Laravel, Django,
-        Flask, Lumen, ASP.NET and have used several libraries such as React and
-        Pandas.
-      </p>
-      <p>
-        When I'm not coding, you'll find me hiking, playing music, or simply
-        exploring new places. Whatever I decide to do I always love having a
-        nice cup of coffee{" "}
+        {t("bio.thirdParagraphPartOne")}
         <span role="img" aria-label="Coffee cup">
           ☕
-        </span>{" "}
-        to start my day!
+        </span>
+        {t("bio.thirdParagraphPartTwo")}
       </p>
       <p>
-        You can read my <Link to={"/"}>blog</Link>, explore{" "}
-        <Link to={"/"}>projects</Link> I have built, or reach out to me to help
-        you with your project.
+        {t("bio.forthParagraphPartOne")}
+        <Link to={"/"}>{t("menu.blog")}</Link>
+        {t("bio.forthParagraphPartTwo")}
+        <Link to={"/"}>{t("menu.projects")}</Link>
+        {t("bio.forthParagraphPartThree")}
       </p>
     </>
   );
