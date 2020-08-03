@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bd09bb5.chunk.css",
-    "main.js": "/static/js/main.7d22cde9.chunk.js",
-    "main.js.map": "/static/js/main.7d22cde9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e0c0504d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e0c0504d.js.map",
-    "static/css/2.7df41cd5.chunk.css": "/static/css/2.7df41cd5.chunk.css",
-    "static/js/2.1639c805.chunk.js": "/static/js/2.1639c805.chunk.js",
-    "static/js/2.1639c805.chunk.js.map": "/static/js/2.1639c805.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8e7ffea055add6fad20acf049b6f9b8e.js": "/precache-manifest.8e7ffea055add6fad20acf049b6f9b8e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.7df41cd5.chunk.css.map": "/static/css/2.7df41cd5.chunk.css.map",
-    "static/css/main.6bd09bb5.chunk.css.map": "/static/css/main.6bd09bb5.chunk.css.map",
-    "static/js/2.1639c805.chunk.js.LICENSE.txt": "/static/js/2.1639c805.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/headshot.jpg": "/static/media/headshot.e87c7360.jpg",
-    "static/media/jeffrey_boisvert_resume_english.pdf": "/static/media/jeffrey_boisvert_resume_english.71f87a3e.pdf"
+    "main.css": "/jdboisvert.github.io/static/css/main.6bd09bb5.chunk.css",
+    "main.js": "/jdboisvert.github.io/static/js/main.06bcd2f7.chunk.js",
+    "main.js.map": "/jdboisvert.github.io/static/js/main.06bcd2f7.chunk.js.map",
+    "runtime-main.js": "/jdboisvert.github.io/static/js/runtime-main.bd2634a7.js",
+    "runtime-main.js.map": "/jdboisvert.github.io/static/js/runtime-main.bd2634a7.js.map",
+    "static/css/2.072f7317.chunk.css": "/jdboisvert.github.io/static/css/2.072f7317.chunk.css",
+    "static/js/2.1639c805.chunk.js": "/jdboisvert.github.io/static/js/2.1639c805.chunk.js",
+    "static/js/2.1639c805.chunk.js.map": "/jdboisvert.github.io/static/js/2.1639c805.chunk.js.map",
+    "index.html": "/jdboisvert.github.io/index.html",
+    "precache-manifest.7c952933a8c5e93b4d63aafe2af3b140.js": "/jdboisvert.github.io/precache-manifest.7c952933a8c5e93b4d63aafe2af3b140.js",
+    "service-worker.js": "/jdboisvert.github.io/service-worker.js",
+    "static/css/2.072f7317.chunk.css.map": "/jdboisvert.github.io/static/css/2.072f7317.chunk.css.map",
+    "static/css/main.6bd09bb5.chunk.css.map": "/jdboisvert.github.io/static/css/main.6bd09bb5.chunk.css.map",
+    "static/js/2.1639c805.chunk.js.LICENSE.txt": "/jdboisvert.github.io/static/js/2.1639c805.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/jdboisvert.github.io/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/headshot.jpg": "/jdboisvert.github.io/static/media/headshot.e87c7360.jpg",
+    "static/media/jeffrey_boisvert_resume_english.pdf": "/jdboisvert.github.io/static/media/jeffrey_boisvert_resume_english.71f87a3e.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0c0504d.js",
-    "static/css/2.7df41cd5.chunk.css",
+    "static/js/runtime-main.bd2634a7.js",
+    "static/css/2.072f7317.chunk.css",
     "static/js/2.1639c805.chunk.js",
     "static/css/main.6bd09bb5.chunk.css",
-    "static/js/main.7d22cde9.chunk.js"
+    "static/js/main.06bcd2f7.chunk.js"
   ]
 }
