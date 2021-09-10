@@ -31,7 +31,7 @@ const Biography = () => {
         {t("bio.forthParagraphPartOne")}
         <Link to={"/"}>{t("menu.blog")}</Link>
         {t("bio.forthParagraphPartTwo")}
-        <Link to={"/"}>{t("menu.projects")}</Link>
+        <a href={"https://github.com/jdboisvert"} target={"_blank"} rel="noopener noreferrer">{t("menu.projects")}</a>
         {t("bio.forthParagraphPartThree")}
       </p>
     </>

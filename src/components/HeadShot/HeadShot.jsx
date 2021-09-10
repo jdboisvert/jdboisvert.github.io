@@ -7,7 +7,7 @@ import headshot from "../../static/headshot.jpg";
 const HeadShot = () => {
   return (
     <div className={styles.headshot}>
-      <Image src={headshot} size="big" circular />
+      <Image src={headshot} size="medium" circular />
     </div>
   );
 };

@@ -40,20 +40,6 @@ const Header = () => {
           <Popup
             trigger={
               <Menu.Item
-                name="projects"
-                disabled
-                active={activeItem === "projects"}
-                onClick={handleItemClick}
-                as={Link}
-                to="/"
-              />
-            }
-            content={comingSoonText}
-            position="bottom"
-          />
-          <Popup
-            trigger={
-              <Menu.Item
                 name="blog"
                 disabled
                 active={activeItem === "blog"}
