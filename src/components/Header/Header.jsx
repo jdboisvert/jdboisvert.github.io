@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, Segment, Popup } from "semantic-ui-react";
+import { Menu, Segment } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -16,14 +16,16 @@ const Header = () => {
 
   const handleItemClick = (e, { name }) => setActiveItem(name);
 
+  const goToBlog = (e) => {
+    window.open("https://dev.to/jdvert")
+  }
+
   const handleLanguageSwitch = (e, { name }) => {
     const languageToSwitchTo = name === french ? "fr" : "en";
 
     i18n.changeLanguage(languageToSwitchTo);
     setLanguage(name === french ? english : french);
   };
-
-  const comingSoonText = t("comingSoon");
 
   return (
     <Segment inverted>
@@ -37,21 +39,11 @@ const Header = () => {
         />
         <Menu.Menu position="right">
           <Menu.Item name={t("menu.resume")} as={"a"} href={resume} download />
-          <Popup
-            trigger={
-              <Menu.Item
-                name="blog"
-                disabled
-                active={activeItem === "blog"}
-                onClick={handleItemClick}
-                as={Link}
-                to="/"
-              />
-            }
-            content={comingSoonText}
-            position="bottom"
+          <Menu.Item
+            name="blog"
+            active={activeItem === "blog"}
+            onClick={goToBlog}
           />
-
           <Menu.Item name={language} onClick={handleLanguageSwitch} />
         </Menu.Menu>
       </Menu>
