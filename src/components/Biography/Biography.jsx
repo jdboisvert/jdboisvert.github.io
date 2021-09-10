@@ -1,6 +1,5 @@
 import React from "react";
 import { Header } from "semantic-ui-react";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import styles from "./Biography.module.css";
@@ -29,7 +28,7 @@ const Biography = () => {
       </p>
       <p>
         {t("bio.forthParagraphPartOne")}
-        <Link to={"/"}>{t("menu.blog")}</Link>
+        <a href={"https://dev.to/jdvert"} target={"_blank"} rel="noopener noreferrer">{t("menu.blog")}</a>
         {t("bio.forthParagraphPartTwo")}
         <a href={"https://github.com/jdboisvert"} target={"_blank"} rel="noopener noreferrer">{t("menu.projects")}</a>
         {t("bio.forthParagraphPartThree")}
