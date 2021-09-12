@@ -30,6 +30,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-### GitHub pages deployment
+### `npm run deploy`
 
-To publish the app run the script `npm run deploy` which is essentially running `gh-pages -d build`.
+To publish the app which is essentially running `gh-pages -d build`. Ensure to run the build command before deploying or simply run `npm run predeploy`. This will add the new code to the `gh-pages` branch and will be visible [here](https://jdboisvert.github.io/)

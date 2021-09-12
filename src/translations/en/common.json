@@ -19,6 +19,7 @@
   },
   "comingSoon": "Coming soon ...",
   "email": "Email",
+  "projectSourceCode": "This Project's Source Code", 
   "clickToCopy": "Click to copy email",
   "copied": "Copied!"
 }

@@ -40,11 +40,18 @@ const Footer = () => {
           GitHub
         </Menu.Item>
         <Menu.Item
-          href="https://www.linkedin.com/in/jeffreyboisvert/"
+          href="https://www.linkedin.com/in/jeffreybv/"
           target="_blank"
           className={styles.footerItem}
         >
           LinkedIn
+        </Menu.Item>
+        <Menu.Item
+          href="https://github.com/jdboisvert/jdboisvert.github.io"
+          target="_blank"
+          className={styles.footerItem}
+        >
+          {t("projectSourceCode")}
         </Menu.Item>
       </Menu>
     </div>
