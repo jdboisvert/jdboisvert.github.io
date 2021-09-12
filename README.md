@@ -1,3 +1,5 @@
+# My Personal Website
+
 So I basically wanted a personal website and thought "Why not build it myself?"
 This website is a simple ReactJS application and may change overtime. Feel free to use this project for your own website if you find it useful :)
 
