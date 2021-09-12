@@ -3,6 +3,7 @@ import { Header } from "semantic-ui-react";
 import { useTranslation } from "react-i18next";
 
 import styles from "./Biography.module.css";
+import { BLOG_URL, GITHUB_URL } from "../../constants/constants"
 
 const Biography = () => {
   const { t } = useTranslation("common");
@@ -28,9 +29,9 @@ const Biography = () => {
       </p>
       <p>
         {t("bio.forthParagraphPartOne")}
-        <a href={"https://dev.to/jdvert"} target={"_blank"} rel="noopener noreferrer">{t("menu.blog")}</a>
+        <a href={BLOG_URL} target={"_blank"} rel="noopener noreferrer">{t("menu.blog")}</a>
         {t("bio.forthParagraphPartTwo")}
-        <a href={"https://github.com/jdboisvert"} target={"_blank"} rel="noopener noreferrer">{t("menu.projects")}</a>
+        <a href={GITHUB_URL} target={"_blank"} rel="noopener noreferrer">{t("menu.projects")}</a>
         {t("bio.forthParagraphPartThree")}
       </p>
     </>

@@ -4,6 +4,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useTranslation } from "react-i18next";
 
 import styles from "./Footer.module.css";
+import {EMAIL, GITHUB_URL, LINKEDIN_URL, CURRENT_PROJECT_SOURCE_CODE_URL} from "../../constants/constants"
 
 const Footer = () => {
   const { t } = useTranslation("common");
@@ -24,7 +25,7 @@ const Footer = () => {
           content={emailPopupText}
           trigger={
             <CopyToClipboard
-              text="info.jeffreyboisvert@gmail.com"
+              text={EMAIL}
               onCopy={handleCopyEmail}
             >
               <Menu.Item className={styles.footerItem}>{t("email")}</Menu.Item>
@@ -34,20 +35,20 @@ const Footer = () => {
         />
         <Menu.Item
           className={styles.footerItem}
-          href="https://github.com/jdboisvert"
+          href={GITHUB_URL}
           target="_blank"
         >
           GitHub
         </Menu.Item>
         <Menu.Item
-          href="https://www.linkedin.com/in/jeffreybv/"
+          href={LINKEDIN_URL}
           target="_blank"
           className={styles.footerItem}
         >
           LinkedIn
         </Menu.Item>
         <Menu.Item
-          href="https://github.com/jdboisvert/jdboisvert.github.io"
+          href={CURRENT_PROJECT_SOURCE_CODE_URL}
           target="_blank"
           className={styles.footerItem}
         >

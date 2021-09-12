@@ -6,43 +6,41 @@ import { useTranslation } from "react-i18next";
 import styles from "./Header.module.css";
 import resume_english from "../../static/jeffrey_boisvert_resume_english.pdf";
 import resume_french from "../../static/jeffrey_boisvert_resume_français.pdf"
+import {MY_NAME, BLOG_URL, BLOG_NAME, FRENCH, ENGLISH, FRENCH_SHORTNAME, ENGLISH_SHORTNAME} from "../../constants/constants"
 
 const Header = () => {
-  const french = "français";
-  const english = "english";
-
-  const [activeItem, setActiveItem] = useState("jeffrey boisvert");
-  const [language, setLanguage] = useState(french);
+  const [activeItem, setActiveItem] = useState(MY_NAME);
+  const [language, setLanguage] = useState(FRENCH);
   const { t, i18n } = useTranslation("common");
 
   const handleItemClick = (e, { name }) => setActiveItem(name);
 
   const goToBlog = (e) => {
-    window.open("https://dev.to/jdvert")
+    window.open(BLOG_URL)
   }
 
   const handleLanguageSwitch = (e, { name }) => {
-    const languageToSwitchTo = name === french ? "fr" : "en";
+    const languageToSwitchTo = name === FRENCH ? FRENCH_SHORTNAME : ENGLISH_SHORTNAME;
 
     i18n.changeLanguage(languageToSwitchTo);
-    setLanguage(name === french ? english : french);
+    setLanguage(name === FRENCH ? ENGLISH : FRENCH);
   };
 
   return (
     <Segment inverted>
       <Menu inverted pointing secondary className={styles.centeredContainer}>
         <Menu.Item
-          name="jeffrey boisvert"
-          active={activeItem === "jeffrey boisvert"}
+          name={MY_NAME}
+          active={activeItem === MY_NAME}
           onClick={handleItemClick}
           as={Link}
           to="/"
         />
         <Menu.Menu position="right">
-          <Menu.Item name={t("menu.resume")} as={"a"} href={language === french ? resume_english : resume_french} download />
+          <Menu.Item name={t("menu.resume")} as={"a"} href={language === FRENCH ? resume_english : resume_french} download />
           <Menu.Item
-            name="blog"
-            active={activeItem === "blog"}
+            name={BLOG_NAME}
+            active={activeItem === BLOG_NAME}
             onClick={goToBlog}
           />
           <Menu.Item name={language} onClick={handleLanguageSwitch} />
