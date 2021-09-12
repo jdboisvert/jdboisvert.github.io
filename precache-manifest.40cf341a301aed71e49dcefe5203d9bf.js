@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16e984218c3eff6a958a315868c62006",
+    "revision": "53c7bef24b8e65666c00ae4ab82438db",
     "url": "/index.html"
   },
   {
-    "revision": "4a4a28158b3b8d322630",
+    "revision": "b0f0d1664569f09dad3b",
     "url": "/static/css/2.7df41cd5.chunk.css"
   },
   {
-    "revision": "e54188193350d9ff147f",
+    "revision": "137325e4960ed72f62fb",
     "url": "/static/css/main.d9d3ef69.chunk.css"
   },
   {
-    "revision": "4a4a28158b3b8d322630",
-    "url": "/static/js/2.af1d0c33.chunk.js"
+    "revision": "b0f0d1664569f09dad3b",
+    "url": "/static/js/2.ad9c3296.chunk.js"
   },
   {
     "revision": "2089965cc3e0fbb1dda2d650d8277df4",
-    "url": "/static/js/2.af1d0c33.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ad9c3296.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e54188193350d9ff147f",
-    "url": "/static/js/main.5bee7087.chunk.js"
+    "revision": "137325e4960ed72f62fb",
+    "url": "/static/js/main.c849afe0.chunk.js"
   },
   {
     "revision": "3aaad2bcd319e2f77660",
@@ -72,8 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "71f87a3ed91704c08af9568632b16343",
-    "url": "/static/media/jeffrey_boisvert_resume_english.71f87a3e.pdf"
+    "revision": "e7f0d89961b313f6d5235885a2e218c4",
+    "url": "/static/media/jeffrey_boisvert_resume_english.e7f0d899.pdf"
+  },
+  {
+    "revision": "477b3a0587228dad3dbd78f415d15129",
+    "url": "/static/media/jeffrey_boisvert_resume_français.477b3a05.pdf"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
