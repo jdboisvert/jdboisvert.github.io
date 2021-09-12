@@ -2,6 +2,7 @@ So I basically wanted a personal website and thought "Why not build it myself?"
 This website is a simple ReactJS application and may change overtime. Feel free to use this project for your own website if you find it useful :)
 
 ## Available Scripts
+
 In the project directory, you can run:
 
 ### `npm install`
@@ -29,4 +30,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### GitHub pages deployment
+
+To publish the app run the script `npm run deploy` which is essentially running `gh-pages -d build`.
