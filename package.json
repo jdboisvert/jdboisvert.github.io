@@ -11,7 +11,7 @@
     "i18next": "^19.6.3",
     "i18next-browser-languagedetector": "^5.0.0",
     "i18next-localstorage-cache": "^1.1.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^8.0.0",
     "react": "^16.13.1",
     "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.13.1",
