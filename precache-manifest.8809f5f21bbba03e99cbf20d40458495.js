@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "624d1b13590151cc7f7bfe910e818911",
+    "revision": "2307fd4c7c13fe829e966671ade1d0da",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.7df41cd5.chunk.css"
   },
   {
-    "revision": "b1884a0faf31bc1cf9fb",
-    "url": "/static/css/main.d9d3ef69.chunk.css"
+    "revision": "0b56caa4135142e934e8",
+    "url": "/static/css/main.3a21e52f.chunk.css"
   },
   {
     "revision": "b0f0d1664569f09dad3b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ad9c3296.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1884a0faf31bc1cf9fb",
-    "url": "/static/js/main.0c4d0390.chunk.js"
+    "revision": "0b56caa4135142e934e8",
+    "url": "/static/js/main.e40b0242.chunk.js"
   },
   {
     "revision": "3aaad2bcd319e2f77660",
@@ -72,12 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "e7f0d89961b313f6d5235885a2e218c4",
-    "url": "/static/media/jeffrey_boisvert_resume_english.e7f0d899.pdf"
+    "revision": "6827d3d614a898dfd95be9736b2613ff",
+    "url": "/static/media/jeffrey_boisvert_resume_english.6827d3d6.pdf"
   },
   {
-    "revision": "477b3a0587228dad3dbd78f415d15129",
-    "url": "/static/media/jeffrey_boisvert_resume_français.477b3a05.pdf"
+    "revision": "86f55d96458368462184896fe011372c",
+    "url": "/static/media/jeffrey_boisvert_resume_français.86f55d96.pdf"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
