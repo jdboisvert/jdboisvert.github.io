@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import styles from "./Header.module.css";
-import resume_english from "../../static/jeffrey_boisvert_resume_english.pdf";
-import resume_french from "../../static/jeffrey_boisvert_resume_français.pdf"
 import {MY_NAME, BLOG_URL, BLOG_NAME, FRENCH, ENGLISH, FRENCH_SHORTNAME, ENGLISH_SHORTNAME} from "../../constants/constants"
 
 const Header = () => {
@@ -37,7 +35,6 @@ const Header = () => {
           to="/"
         />
         <Menu.Menu position="right">
-          <Menu.Item name={t("menu.resume")} as={"a"} href={language === FRENCH ? resume_english : resume_french} download />
           <Menu.Item
             name={BLOG_NAME}
             active={activeItem === BLOG_NAME}
