@@ -1,32 +1,81 @@
-# My Personal Website
+# My portfolio website
 
-So I basically wanted a personal website and thought "Why not build it myself?"
-This website is a simple ReactJS application and may change overtime. Feel free to use this project for your own website if you find it useful :)
+So, I basically wanted a personal website and thought "Why not build it myself?" Feel free to use this project for your own website if you find it useful :)
 
-## Available Scripts
+## Getting Started 🚀
 
-In the project directory, you can run:
+### Prerequisites 📋
 
-### `npm install`
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
-Installs everything you need to get started. This should be run right after cloning.
+```
+node@v16.4.2 or higher
+npm@7.18.1 or higher
+git@2.30.1 or higher
+```
 
-### `npm start`
+Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+yarn@v1.22.10 or higher
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `npm run build`
+## How To Use 🔧
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+From your command line, first clone Simplefolio:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+# Clone the repository
+$ git clone https://github.com/jdboisvert/jdboisvert.github.io.git
 
-### `npm run deploy`
+# Move into the repository
+$ cd jdboisvert.github.io
+```
 
-To publish the app which is essentially running `gh-pages -d build`. Ensure to run the build command before deploying or simply run `npm run predeploy`. This will add the new code to the `gh-pages` branch and will be visible [here](https://jdboisvert.github.io/)
+After that, you can install the dependencies either using NPM or Yarn.
+
+Using NPM: Simply run the below commands.
+
+```bash
+# 2022 Update - Fix Dependencies
+$ npm audit fix
+$ npm i @parcel/transformer-sass
+
+# Install dependencies
+$ npm install
+
+# Start the development server
+$ npm start
+```
+
+Using Yarn: Be aware of that you'll need to delete the `package-lock.json` file before executing the below commands.
+
+```bash
+# Install dependencies
+$ yarn
+
+# Start the development server
+$ yarn start
+```
+
+**NOTE**:
+If your run into issues installing the dependencies with NPM, use this below command:
+
+```bash
+# Install dependencies with all permissions
+$ sudo npm install --unsafe-perm=true --allow-root
+```
+
+Once your server has started, go to this url `http://localhost:1234/` to see the portfolio locally. It should look like the below screenshot.
+
+---
+
+## Deployment 📦
+
+GitHub Pages will host this website for free. Follow the instructions [here](https://docs.github.com/en/pages/quickstart) to deploy your website to GitHub Pages.
+
+## Acknowledgments 🎁
+
+This started as a template found at [Simplefolio](https://github.com/cobiwave/simplefolio) so thank you to the original [developer](https://github.com/cobiwave) for the template and great starting point!
