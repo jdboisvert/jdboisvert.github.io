@@ -76,14 +76,6 @@ Once your server has started, go to this url `http://localhost:1234/` to see the
 
 GitHub Pages will host this website for free. Follow the instructions [here](https://docs.github.com/en/pages/quickstart) to deploy your website to GitHub Pages.
 
-## Technologies used 🛠️
-
-- [Parcel](https://parceljs.org/) - Bundler
-- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Frontend component library
-- [Sass](https://sass-lang.com/documentation) - CSS extension language
-- [ScrollReveal.js](https://scrollrevealjs.org/) - JavaScript library
-- [Tilt.js](https://gijsroge.github.io/tilt.js/) - JavaScript tiny parallax library
-
 ## Acknowledgments 🎁
 
 This started as a template found at [Simplefolio](https://github.com/cobiwave/simplefolio) so thank you to the original [developer](https://github.com/cobiwave) for the template and great starting point!
